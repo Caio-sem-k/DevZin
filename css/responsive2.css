@@ -1,0 +1,95 @@
+/*max ate medium*/
+@media (min-width: 769px) {
+    #header .nav-link{
+        margin-left: 15px;  
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    #header .navbar-collapse {
+        width: 100%;
+    }
+} 
+
+@media (max-width: 767.98px){
+    #sobre{
+        margin-bottom: 30px;
+    }
+
+    #servicos{
+        margin-bottom: 40px;
+    }
+    
+    #servicos a.destaque .img-container{
+       height: 120px; 
+    }
+
+    #servicos a.destaque .img-container img{
+        max-height: 120px; 
+     }
+
+    #servicos .button-group{
+        font-size: 14.6px;
+        margin-left: 5.4%
+    } 
+
+    #servicos h5{
+        font-size: medium;
+    }
+
+    #servicos span{
+        font-size: x-small;
+    }
+
+    #slider{
+        width: 100%;
+        height: 100%;
+        background-size: 90%;
+        justify-content: flex-start;
+        margin-bottom: 55px;
+    }
+
+    #Designs-text{
+        font-size: 80%;
+    }  
+
+    #clientes .col-md-6{
+        margin-bottom: 0;
+        justify-content: space-between;
+        margin-left: 2%;
+    }
+
+    #redes-sociais{
+        padding-top: 30px;
+        justify-content: center;
+        margin-right: 7.8%;
+        margin-top: 10%;
+    }
+
+    #redes-sociais ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        margin-right: 59.6px;
+    }
+
+    #redes-sociais .logo-final{
+        display: none;
+    }
+
+    #final h6{
+        font-size: 14px;
+    }
+
+    #final{
+        justify-content: center;
+        align-items: center;
+        margin-right: 5px;
+    }
+
+    #cont{
+        margin-left: 0;
+        justify-content: center;
+    }
+}
